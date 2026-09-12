@@ -12,13 +12,13 @@ The main thermodynamic properties used by the system are:
 
 | Symbol | Property | Typical unit |
 |---|---|---|
-| `P` | Pressure | kPa |
-| `T` | Temperature | °C |
-| `v` | Specific volume | m³/kg |
-| `u` | Specific internal energy | kJ/kg |
-| `h` | Specific enthalpy | kJ/kg |
-| `s` | Specific entropy | kJ/(kg·K) |
-| `x` | Vapor quality | dimensionless |
+| `P` | Pressure | `kPa` |
+| `T` | Temperature | `°C` |
+| `v` | Specific volume | `m³/kg` |
+| `u` | Specific internal energy | `kJ/kg` |
+| `h` | Specific enthalpy | `kJ/kg` |
+| `s` | Specific entropy | `kJ/(kg·K)` |
+| `x` | Vapor quality | Dimensionless |
 
 The exact properties available depend on the selected substance and thermodynamic state.
 
@@ -46,15 +46,11 @@ For phase-change calculations, temperature may also be compared with saturation 
 
 Specific volume represents the volume occupied per unit mass:
 
-\[
-v = \frac{V}{m}
-\]
+`v = V / m`
 
 It is commonly expressed in:
 
-\[
-m^3/kg
-\]
+`m³/kg`
 
 Specific volume can be useful for identifying the state of a substance and distinguishing between liquid, two-phase and vapor regions.
 
@@ -66,9 +62,7 @@ Specific internal energy represents the internal energy stored per unit mass of 
 
 It is commonly expressed in:
 
-\[
-kJ/kg
-\]
+`kJ/kg`
 
 Internal energy is frequently used in closed-system energy analysis and thermodynamic property calculations.
 
@@ -76,17 +70,13 @@ Internal energy is frequently used in closed-system energy analysis and thermody
 
 ## Specific enthalpy — h
 
-Specific enthalpy is defined by:
+Specific enthalpy is related to internal energy, pressure and specific volume by:
 
-\[
-h = u + Pv
-\]
+`h = u + Pv`
 
 It is commonly expressed in:
 
-\[
-kJ/kg
-\]
+`kJ/kg`
 
 Enthalpy is especially important in steady-flow devices and engineering systems such as turbines, compressors, pumps, heat exchangers and nozzles.
 
@@ -96,9 +86,7 @@ Enthalpy is especially important in steady-flow devices and engineering systems 
 
 Specific entropy is commonly expressed in:
 
-\[
-kJ/(kg \cdot K)
-\]
+`kJ/(kg·K)`
 
 Entropy is used extensively in second-law analysis and in the evaluation of thermodynamic processes and cycles.
 
@@ -110,27 +98,19 @@ Vapor quality describes the mass fraction of vapor in a saturated liquid-vapor m
 
 It is defined as:
 
-\[
-x = \frac{m_{vapor}}{m_{liquid} + m_{vapor}}
-\]
+`x = m_vapor / (m_liquid + m_vapor)`
 
 For a two-phase mixture:
 
-\[
-0 < x < 1
-\]
+`0 < x < 1`
 
 At the saturated-liquid boundary:
 
-\[
-x = 0
-\]
+`x = 0`
 
 At the saturated-vapor boundary:
 
-\[
-x = 1
-\]
+`x = 1`
 
 Vapor quality is only meaningful within the saturation region and at its boundaries.
 
