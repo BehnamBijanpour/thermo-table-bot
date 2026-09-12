@@ -307,11 +307,15 @@ This repository is intended for:
 
 ## Project status
 
-**Active and maintained.**
+**Stable / Feature-complete**
 
-Thermo Table Bot is an actively maintained scientific software project.
+Thermo Table Bot reached its intended final feature set with version `1.0.0`, released on **September 9, 2026**.
 
-Its scientific capabilities, validation process, documentation and user experience may continue to evolve as the project develops.
+No additional product features are currently planned.
+
+Future updates, if required, will focus on maintenance, scientific corrections, reliability, compatibility and documentation rather than feature expansion.
+
+See [CHANGELOG.md](./CHANGELOG.md) for the public release history.
 
 ---
 
