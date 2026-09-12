@@ -2,12 +2,14 @@ cff-version: 1.2.0
 message: "If you use Thermo Table Bot in academic, educational, or engineering work, please cite the project using the metadata below."
 
 title: "Thermo Table Bot"
-
 type: software
 
 authors:
   - family-names: "Bijanpour"
     given-names: "Seyed Behnam"
+
+version: "1.0.0"
+date-released: 2026-09-09
 
 abstract: >-
   Thermo Table Bot is a scientific thermodynamics and psychrometrics
