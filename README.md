@@ -1,5 +1,9 @@
 # Thermo Table Bot
 
+<p align="center">
+  <img src="assets/thermo-table-bot-hero.png" alt="Thermo Table Bot — thermodynamic properties, interpolation and psychrometrics" width="100%">
+</p>
+
 A scientific thermodynamics and psychrometrics tool by **B-Logic**, available directly in Telegram.
 
 Thermo Table Bot helps engineering students and practitioners retrieve thermodynamic properties, perform interpolation, identify thermodynamic states, and solve humid-air calculations without manually navigating multiple property tables.
