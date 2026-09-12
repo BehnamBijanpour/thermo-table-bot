@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use Thermo Table Bot in academic, educational, or engineering work, please cite the project using the metadata below."
+
+title: "Thermo Table Bot"
+
+type: software
+
+authors:
+  - family-names: "Bijanpour"
+    given-names: "Seyed Behnam"
+
+abstract: >-
+  Thermo Table Bot is a scientific thermodynamics and psychrometrics
+  tool developed by B-Logic. It provides thermodynamic property
+  evaluation, automatic region detection, one-dimensional and
+  two-dimensional interpolation, saturation and two-phase calculations,
+  vapor-quality calculations, refrigerant and engineering-gas property
+  calculations, and humid-air psychrometric calculations through a
+  Telegram interface.
+
+keywords:
+  - thermodynamics
+  - thermodynamic properties
+  - psychrometrics
+  - interpolation
+  - engineering education
+  - scientific software
+  - humid air
+  - refrigerants
+
+repository: "https://github.com/BehnamBijanpour/thermo-table-bot"
+
+url: "https://b-logic.me/"
