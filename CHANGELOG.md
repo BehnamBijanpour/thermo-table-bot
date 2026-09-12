@@ -1,6 +1,6 @@
 # Changelog
 
-All notable public changes to **Thermo Table Bot** will be documented in this file.
+All notable public changes to **Thermo Table Bot** are documented in this file.
 
 This changelog tracks changes relevant to the public product, scientific capabilities, validation status and documentation.
 
@@ -8,11 +8,17 @@ The production source code and internal development history remain private.
 
 ---
 
-## [Unreleased]
+## [1.0.0] - 2026-09-09
 
-### Scientific capabilities
+**Initial stable release**
 
-- Thermodynamic property evaluation for supported substances
+Thermo Table Bot reached its intended feature-complete state with version `1.0.0`.
+
+This release represents the final planned feature set of the project. Future updates, if required, will focus on maintenance, scientific corrections, reliability and documentation rather than feature expansion.
+
+### Thermodynamic capabilities
+
+- Thermodynamic property evaluation
 - Automatic thermodynamic region detection
 - One-dimensional interpolation
 - Two-dimensional interpolation
@@ -21,13 +27,13 @@ The production source code and internal development history remain private.
 - Vapor-quality calculations
 - Refrigerant property calculations
 - Engineering-gas property calculations
-- Humid-air psychrometric calculations
 - Scientific input validation
 - Physical consistency checking
+- Reference and calculation-method reporting
 
 ### Supported substances
 
-The documented thermodynamic system currently includes:
+Version `1.0.0` includes thermodynamic property support for:
 
 - Water
 - Air
@@ -38,9 +44,20 @@ The documented thermodynamic system currently includes:
 - R134a
 - R410A
 
-### Validation
+### Psychrometrics
 
-The currently documented validated project snapshot reports:
+Version `1.0.0` includes humid-air psychrometric calculations involving properties such as:
+
+- Dry-bulb temperature
+- Wet-bulb temperature
+- Dew-point temperature
+- Relative humidity
+- Humidity ratio
+- Enthalpy
+
+### Scientific validation
+
+The validated version `1.0.0` project snapshot reports:
 
 - `412` automated tests passed
 - `118 / 118` thermodynamic regression cases passed
@@ -48,11 +65,25 @@ The currently documented validated project snapshot reports:
 - `10,000 / 10,000` stress-test cases passed
 - `0` scientific invariant failures
 
-Detailed methodology and scope are documented in [Validation](./docs/validation.md).
+Detailed methodology and validation scope are documented in [Validation](./docs/validation.md).
+
+### Scientific data integrity
+
+The production scientific data used by the system is tracked through an internal data manifest.
+
+The project includes:
+
+- Production-data file identification
+- SHA-256 integrity tracking
+- Scientific consistency checks
+- Documented data corrections
+- Regression testing against validated reference states
+
+Additional public information is available in [Scientific References](./REFERENCES.md).
 
 ### Documentation
 
-Added public technical documentation for:
+The public technical documentation for version `1.0.0` includes:
 
 - Project overview
 - System architecture and calculation workflow
@@ -65,31 +96,44 @@ Added public technical documentation for:
 - Scientific validation
 - System limitations
 - Frequently asked questions
+- Scientific references and data provenance
+- Citation metadata
+- Repository license and usage information
 
-### Repository
+### Public interface
 
-- Established the public Thermo Table Bot documentation repository
-- Added project branding and repository hero image
-- Added direct navigation to Telegram, documentation and B-Logic
-- Added a documentation map to the main README
-- Added public scientific validation summary
-- Documented the separation between public technical documentation and the private production implementation
+Thermo Table Bot is available through Telegram:
+
+https://t.me/thermo_table_bot
 
 ---
 
-## Versioning policy
+## Release policy
 
-Future public releases may use semantic versioning where appropriate:
+Version `1.0.0` represents the intended final feature set of Thermo Table Bot.
+
+No additional product features are currently planned.
+
+Future releases, if necessary, may be issued for:
+
+- Scientific corrections
+- Bug fixes
+- Reliability improvements
+- Compatibility maintenance
+- Documentation corrections
+- Security or operational maintenance
+
+A future maintenance release does not imply expansion of the project's intended feature set.
+
+---
+
+## Versioning
+
+Public releases use semantic versioning where appropriate:
 
 `MAJOR.MINOR.PATCH`
 
-In general:
-
-- **MAJOR** — significant changes that alter documented behavior or compatibility
-- **MINOR** — new supported capabilities, fluids, calculation modes or substantial features
-- **PATCH** — fixes, validation improvements, documentation corrections or minor behavior changes
-
-A version number will only be recorded here when a corresponding public project version is intentionally identified.
+For the current feature-complete project, future version changes are expected primarily to represent maintenance or corrective updates rather than planned feature development.
 
 ---
 
@@ -97,16 +141,14 @@ A version number will only be recorded here when a corresponding public project 
 
 This file may document changes to:
 
-- Supported substances
-- Supported property combinations
-- Thermodynamic calculation capabilities
-- Region-detection behavior
-- Interpolation capabilities
-- Psychrometric calculations
-- Scientific validation status
+- Scientific behavior
+- Calculation correctness
+- Supported production behavior
+- Validation status
+- Reliability
 - User-facing behavior
 - Public documentation
-- Public project releases
+- Public releases
 
 ---
 
@@ -115,14 +157,12 @@ This file may document changes to:
 Because Thermo Table Bot is proprietary software, this changelog does not provide internal development details such as:
 
 - Private source-code changes
-- Internal architecture details not included in the public documentation
-- Security-related changes that should remain confidential
-- Deployment credentials or infrastructure details
 - Internal scientific datasets
 - Private test implementation
 - Exact internal numerical tolerances
-
-Public entries are intended to describe meaningful product and scientific changes without exposing the private production implementation.
+- Security-sensitive implementation details
+- Server configuration
+- Deployment infrastructure
 
 ---
 
@@ -134,3 +174,4 @@ Public entries are intended to describe meaningful product and scientific change
 - [Validation](./docs/validation.md)
 - [Limitations](./docs/limitations.md)
 - [FAQ](./docs/faq.md)
+- [Scientific References](./REFERENCES.md)
