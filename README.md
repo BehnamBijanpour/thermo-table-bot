@@ -17,14 +17,17 @@
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="./docs/overview.md"><strong>Documentation</strong></a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/BehnamBijanpour/thermo-table-bot/releases/tag/v1.0.0"><strong>v1.0.0 Release</strong></a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://b-logic.me/"><strong>B-Logic</strong></a>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Version-v1.0.0-brightgreen" alt="Version v1.0.0">
+  <img src="https://img.shields.io/badge/Status-Stable-brightgreen" alt="Stable">
   <img src="https://img.shields.io/badge/Thermodynamics-Scientific%20Tool-blue" alt="Thermodynamics">
   <img src="https://img.shields.io/badge/Psychrometrics-Supported-blue" alt="Psychrometrics">
   <img src="https://img.shields.io/badge/Fluids-8-blue" alt="8 Supported Fluids">
-  <img src="https://img.shields.io/badge/Documentation-Available-brightgreen" alt="Documentation Available">
 </p>
 
 > **Public documentation repository**  
@@ -224,6 +227,18 @@ The technical documentation is organized in the [`docs`](./docs) directory.
 | [Validation](./docs/validation.md) | Testing and scientific validation |
 | [Limitations](./docs/limitations.md) | Scientific and numerical boundaries |
 | [FAQ](./docs/faq.md) | Frequently asked questions |
+
+---
+
+## Project files
+
+| File | Purpose |
+|---|---|
+| [CHANGELOG.md](./CHANGELOG.md) | Public release history |
+| [CITATION.cff](./CITATION.cff) | Citation metadata for academic and educational use |
+| [REFERENCES.md](./REFERENCES.md) | Scientific references and data provenance |
+| [LICENSE.md](./LICENSE.md) | Repository license and usage notice |
+| [v1.0.0 Release](https://github.com/BehnamBijanpour/thermo-table-bot/releases/tag/v1.0.0) | Initial stable, feature-complete release |
 
 ---
 
